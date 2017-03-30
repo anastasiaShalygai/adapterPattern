@@ -19,6 +19,7 @@ public class CrowAdapter implements Parrot {
 
     @Override
     public void fly() {
+        //why such loop condition? explain.
         for (int i = 0; i < (SPEED_PARROT/SPEED_CROW); i++) {
             crow.fly();
         }
